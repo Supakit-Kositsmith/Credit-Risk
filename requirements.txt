@@ -1,6 +1,5 @@
 annotated-types==0.7.0
 anyio==4.10.0
-duckdb==0.9.2
 fastapi==0.116.1
 idna==3.10
 joblib==1.5.2
