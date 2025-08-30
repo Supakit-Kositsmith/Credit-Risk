@@ -29,7 +29,7 @@ app.add_middleware(
 # 3. โหลดโมเดล Random Forest
 # ───────────────────────────────────────────────
 try:
-    model = joblib.load("random_forest_credit.pkl")
+    model = joblib.load("/content/Credit-Risk/random_forest_credit.pkl")
 except Exception as e:
     raise RuntimeError(f"ไม่สามารถโหลดโมเดลได้: {e}")
 
